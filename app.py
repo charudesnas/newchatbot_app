@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from google import genai
 
@@ -17,11 +18,27 @@ you should answer them in polite, if there is any question out of the kb say tha
 
 {kb}
 """
-    client = genai.Client(api_key=st.secrets["GOOGLE_API_KEY"])   # ← paste your key
-    chat = client.chats.create(
-        model="gemini-2.5-flash",
-        config={"system_instruction": prompt},
-    )
+    secret_key = st.secrets.get("GOOGLE_API_KEY")
+    env_key = os.environ.get("GOOGLE_API_KEY")
+    api_key = secret_key or env_key
+    key_source = "Streamlit secrets" if secret_key else "Environment variable" if env_key else None
+
+    if not api_key:
+        st.error("Missing GOOGLE_API_KEY. Add it to Streamlit secrets or as an environment variable.")
+        st.stop()
+
+    st.info(f"Using GOOGLE_API_KEY from: {key_source}")
+
+    client = genai.Client(api_key=api_key)
+    try:
+        chat = client.chats.create(
+            model="gemini-2.5-flash",
+            config={"system_instruction": prompt},
+        )
+    except Exception as e:
+        st.error("Failed to initialize Gemini chat client. Check the API key and the Generative Language API settings.")
+        st.exception(e)
+        st.stop()
     return client, chat
 
 if "chat" not in st.session_state:
