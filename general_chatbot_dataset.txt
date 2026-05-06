@@ -1,0 +1,211 @@
+input,response
+Hello,Hi there! How can I help you today?
+What's your name?,"I'm Chatbot, your friendly virtual assistant."
+How are you?,"I'm just code, but I'm doing great! How about you?"
+Tell me a joke,Why did the computer go to art class? Because it wanted to learn how to draw a bit!
+What’s the weather like?,"I can't check live weather, but I hope it's sunny where you are!"
+Who created you?,I was created by developers who love artificial intelligence.
+Can you help me study?,Of course! What subject are you studying today?
+What’s your favorite movie?,I like 'The Matrix' — it’s quite relatable.
+Tell me a fun fact,Did you know honey never spoils? Archaeologists found edible honey in ancient Egyptian tombs.
+Goodbye,Goodbye! Have a wonderful day ahead!
+What’s your favorite color?,"I’d say blue — calm and reliable, like a good bot."
+Do you sleep?,Not really! I stay online 24/7 to help you.
+Who’s your best friend?,"Probably you, since you talk to me the most!"
+What’s your hobby?,I love chatting and learning new things from you.
+Can you sing?,"I’d love to, but I might sound a bit robotic."
+Tell me something interesting,"Bananas are berries, but strawberries aren’t!"
+Do you like pizza?,"I can’t eat, but pizza sounds amazing!"
+Are you human?,"Nope, I’m fully digital — but I try to be friendly!"
+Can you write poems?,"Sure! Roses are red, code is neat, I exist online, and you’re pretty sweet."
+Thanks!,You’re welcome! Always happy to help.
+Who are you?,Good night! Sleep well!
+Hi,Hello! How are you?
+Thank you,Hello! How are you?
+How’s it going?,Hello! How are you?
+Who are you?,I’m a friendly chatbot built to make your day better.
+Who are you?,I love reading about technology and science.
+Can you help me?,Good night! Sleep well!
+Can you help me?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Who are you?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Tell me a joke,Did you know the Eiffel Tower can be 15 cm taller during summer?
+How’s it going?,Hello! How are you?
+Tell me a joke,I love reading about technology and science.
+Tell me a fact,Of course! What do you need help with?
+Tell me a joke,I love reading about technology and science.
+Who are you?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+What can you do?,"I can chat, tell jokes, or help you learn."
+What can you do?,Hello! How are you?
+How’s it going?,"I can chat, tell jokes, or help you learn."
+How’s it going?,Of course! What do you need help with?
+Who are you?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Who are you?,Hello! How are you?
+Hi,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What can you do?,Of course! What do you need help with?
+Good night,I love reading about technology and science.
+Hi,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Who are you?,I’m a friendly chatbot built to make your day better.
+Good night,"I can chat, tell jokes, or help you learn."
+Thank you,Hello! How are you?
+How’s it going?,Of course! What do you need help with?
+Good night,Of course! What do you need help with?
+Can you help me?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+How’s it going?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Tell me a fact,I’m doing great! Thanks for asking.
+Tell me a joke,Hello! How are you?
+What can you do?,Hello! How are you?
+Tell me a fact,You're very welcome!
+How’s it going?,I’m a friendly chatbot built to make your day better.
+What can you do?,I’m doing great! Thanks for asking.
+Thank you,Good night! Sleep well!
+Good night,I’m a friendly chatbot built to make your day better.
+Tell me a fact,Did you know the Eiffel Tower can be 15 cm taller during summer?
+What can you do?,"I can chat, tell jokes, or help you learn."
+How’s it going?,I’m a friendly chatbot built to make your day better.
+What can you do?,Good night! Sleep well!
+Tell me a fact,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Hi,You're very welcome!
+Hi,I’m doing great! Thanks for asking.
+What can you do?,Good night! Sleep well!
+Can you help me?,I’m doing great! Thanks for asking.
+Good night,You're very welcome!
+How’s it going?,Good night! Sleep well!
+Can you help me?,"I can chat, tell jokes, or help you learn."
+Can you help me?,I’m doing great! Thanks for asking.
+Hi,"I can chat, tell jokes, or help you learn."
+Tell me a joke,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Good night,You're very welcome!
+Who are you?,"I can chat, tell jokes, or help you learn."
+What’s your favorite book?,I’m a friendly chatbot built to make your day better.
+What’s your favorite book?,I’m doing great! Thanks for asking.
+What’s your favorite book?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Tell me a fact,You're very welcome!
+Tell me a fact,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Tell me a joke,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Who are you?,Hello! How are you?
+Good night,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Good night,I’m doing great! Thanks for asking.
+Good night,Hello! How are you?
+Good night,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What can you do?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Can you help me?,Of course! What do you need help with?
+Can you help me?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+How’s it going?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Tell me a joke,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Tell me a fact,You're very welcome!
+What’s your favorite book?,I’m doing great! Thanks for asking.
+How’s it going?,Hello! How are you?
+Good night,Of course! What do you need help with?
+How’s it going?,I’m doing great! Thanks for asking.
+Tell me a fact,Good night! Sleep well!
+Thank you,Of course! What do you need help with?
+Hi,Did you know the Eiffel Tower can be 15 cm taller during summer?
+How’s it going?,I’m doing great! Thanks for asking.
+Good night,"I can chat, tell jokes, or help you learn."
+How’s it going?,Hello! How are you?
+Can you help me?,Hello! How are you?
+What can you do?,Good night! Sleep well!
+Hi,Good night! Sleep well!
+Good night,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What can you do?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+What’s your favorite book?,Good night! Sleep well!
+Good night,"I can chat, tell jokes, or help you learn."
+What’s your favorite book?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What’s your favorite book?,Good night! Sleep well!
+Tell me a joke,I’m a friendly chatbot built to make your day better.
+Hi,You're very welcome!
+Tell me a joke,Hello! How are you?
+Tell me a joke,I love reading about technology and science.
+How’s it going?,"I can chat, tell jokes, or help you learn."
+Who are you?,I love reading about technology and science.
+Hi,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Tell me a joke,Of course! What do you need help with?
+How’s it going?,"I can chat, tell jokes, or help you learn."
+How’s it going?,Good night! Sleep well!
+Can you help me?,I’m a friendly chatbot built to make your day better.
+Can you help me?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+What can you do?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+How’s it going?,You're very welcome!
+What’s your favorite book?,Of course! What do you need help with?
+Tell me a joke,Good night! Sleep well!
+Tell me a joke,I’m a friendly chatbot built to make your day better.
+Hi,I’m doing great! Thanks for asking.
+Can you help me?,Good night! Sleep well!
+Who are you?,Good night! Sleep well!
+Can you help me?,Hello! How are you?
+Tell me a fact,Hello! How are you?
+Hi,Good night! Sleep well!
+What can you do?,I’m a friendly chatbot built to make your day better.
+What’s your favorite book?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Can you help me?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What can you do?,Hello! How are you?
+What’s your favorite book?,Good night! Sleep well!
+Thank you,Good night! Sleep well!
+What’s your favorite book?,I’m a friendly chatbot built to make your day better.
+Good night,Hello! How are you?
+Hi,You're very welcome!
+Thank you,I love reading about technology and science.
+How’s it going?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Tell me a joke,"I can chat, tell jokes, or help you learn."
+What’s your favorite book?,Hello! How are you?
+Tell me a joke,Good night! Sleep well!
+What’s your favorite book?,Of course! What do you need help with?
+Who are you?,I’m doing great! Thanks for asking.
+Hi,I love reading about technology and science.
+Can you help me?,"I can chat, tell jokes, or help you learn."
+What’s your favorite book?,I love reading about technology and science.
+Tell me a fact,Hello! How are you?
+Good night,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What can you do?,"I can chat, tell jokes, or help you learn."
+Tell me a fact,"I can chat, tell jokes, or help you learn."
+Hi,Of course! What do you need help with?
+How’s it going?,Good night! Sleep well!
+What can you do?,I’m doing great! Thanks for asking.
+Who are you?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Who are you?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Tell me a joke,Of course! What do you need help with?
+Who are you?,I’m doing great! Thanks for asking.
+How’s it going?,I’m a friendly chatbot built to make your day better.
+What can you do?,I’m doing great! Thanks for asking.
+Good night,Good night! Sleep well!
+Can you help me?,You're very welcome!
+Tell me a joke,"I can chat, tell jokes, or help you learn."
+Thank you,You're very welcome!
+What’s your favorite book?,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+Hi,"I can chat, tell jokes, or help you learn."
+Good night,Good night! Sleep well!
+What’s your favorite book?,Did you know the Eiffel Tower can be 15 cm taller during summer?
+What’s your favorite book?,Of course! What do you need help with?
+How’s it going?,You're very welcome!
+Good night,I’m a friendly chatbot built to make your day better.
+Tell me a fact,Did you know the Eiffel Tower can be 15 cm taller during summer?
+Tell me a fact,I’m a friendly chatbot built to make your day better.
+How’s it going?,I’m doing great! Thanks for asking.
+Who are you?,I love reading about technology and science.
+What can you do?,Of course! What do you need help with?
+What can you do?,Of course! What do you need help with?
+What can you do?,I love reading about technology and science.
+Tell me a fact,"I can chat, tell jokes, or help you learn."
+Tell me a joke,Of course! What do you need help with?
+How’s it going?,"I can chat, tell jokes, or help you learn."
+Hi,You're very welcome!
+Tell me a fact,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What can you do?,I love reading about technology and science.
+Tell me a joke,Sure! Here's one: Why did the robot cross the road? To recharge its battery!
+What’s your favorite book?,I’m doing great! Thanks for asking.
+Thank you,You're very welcome!
+Tell me a joke,You're very welcome!
+What’s your favorite book?,Hello! How are you?
+Thank you,I’m doing great! Thanks for asking.
+What can you do?,I’m a friendly chatbot built to make your day better.
+Hi,I love reading about technology and science.
+Hi,"I can chat, tell jokes, or help you learn."
+Hi,Hello! How are you?
+How’s it going?,Good night! Sleep well!
+Can you help me?,Good night! Sleep well!
+Can you help me?,Of course! What do you need help with?
+How’s it going?,I’m doing great! Thanks for asking.
+Hi,I’m a friendly chatbot built to make your day better.
+How’s it going?,Hello! How are you?
+Hi,I’m a friendly chatbot built to make your day better.
+Thank you,I’m a friendly chatbot built to make your day better.
