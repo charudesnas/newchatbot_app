@@ -1,4 +1,5 @@
 import os
+import time
 import streamlit as st
 import google
 from google.genai.errors import ServerError
@@ -42,6 +43,21 @@ you should answer them in polite, if there is any question out of the kb say tha
         st.stop()
     return client, chat
 
+def send_message_with_retries(chat, message, max_retries=3, initial_delay=1, backoff_factor=2):
+    delay = initial_delay
+    for attempt in range(1, max_retries + 1):
+        try:
+            return chat.send_message(message)
+        except ServerError as e:
+            if attempt == max_retries:
+                raise
+            st.warning(
+                f"Transient error communicating with Gemini (attempt {attempt}/{max_retries}). Retrying in {delay} second(s)..."
+            )
+            st.exception(e)
+            time.sleep(delay)
+            delay *= backoff_factor
+
 if "chat" not in st.session_state:
     st.session_state.client, st.session_state.chat = init_chat()
 
@@ -66,10 +82,10 @@ if user_input := st.chat_input("Ask something…"):
     # Get model response
     reply = None
     try:
-        response = chat.send_message(user_input)
+        response = send_message_with_retries(chat, user_input)
         reply = response.text
     except ServerError as e:
-        st.error("The Gemini model is currently busy. Please try again in a few moments.")
+        st.error("The Gemini model is currently busy or unavailable. Please try again in a few moments.")
         st.exception(e)
         reply = "Sorry, the model is temporarily unavailable. Please try again shortly."
     except Exception as e:
