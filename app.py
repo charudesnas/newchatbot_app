@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import google
+from google.genai.errors import ServerError
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Chatbot", page_icon="💬")
@@ -63,10 +64,21 @@ if user_input := st.chat_input("Ask something…"):
         st.write(user_input)
 
     # Get model response
-    response = chat.send_message(user_input)
-    reply = response.text
+    reply = None
+    try:
+        response = chat.send_message(user_input)
+        reply = response.text
+    except ServerError as e:
+        st.error("The Gemini model is currently busy. Please try again in a few moments.")
+        st.exception(e)
+        reply = "Sorry, the model is temporarily unavailable. Please try again shortly."
+    except Exception as e:
+        st.error("An unexpected error occurred while sending the message.")
+        st.exception(e)
+        reply = "Sorry, something went wrong. Please try again."
 
     # Show assistant message
-    st.session_state.messages.append({"role": "assistant", "content": reply})
-    with st.chat_message("assistant"):
-        st.write(reply)
+    if reply:
+        st.session_state.messages.append({"role": "assistant", "content": reply})
+        with st.chat_message("assistant"):
+            st.write(reply)
