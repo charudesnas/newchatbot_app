@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from google import genai
+import google
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Chatbot", page_icon="💬")
@@ -29,7 +29,7 @@ you should answer them in polite, if there is any question out of the kb say tha
 
     st.info(f"Using GOOGLE_API_KEY from: {key_source}")
 
-    client = genai.Client(api_key=api_key)
+    client = google.genai.Client(api_key=api_key)
     try:
         chat = client.chats.create(
             model="gemini-2.5-flash",
