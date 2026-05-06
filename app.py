@@ -17,14 +17,17 @@ you should answer them in polite, if there is any question out of the kb say tha
 
 {kb}
 """
-    client = genai.Client(api_key="GOOGLE_API_KEY")   # ← paste your key
+    client = genai.Client(api_key=st.secrets["GOOGLE_API_KEY"])   # ← paste your key
     chat = client.chats.create(
         model="gemini-2.5-flash",
         config={"system_instruction": prompt},
     )
     return chat
 
-chat = init_chat()
+if "chat" not in st.session_state:
+    st.session_state.chat = init_chat()
+
+chat = st.session_state.chat
 
 # ── Session state for message history ────────────────────────────────────────
 if "messages" not in st.session_state:
