@@ -22,10 +22,10 @@ you should answer them in polite, if there is any question out of the kb say tha
         model="gemini-2.5-flash",
         config={"system_instruction": prompt},
     )
-    return chat
+    return client, chat
 
 if "chat" not in st.session_state:
-    st.session_state.chat = init_chat()
+    st.session_state.client, st.session_state.chat = init_chat()
 
 chat = st.session_state.chat
 
